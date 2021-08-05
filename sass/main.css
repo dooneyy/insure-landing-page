@@ -13,7 +13,7 @@
   line-height: 1;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .heading, header .hero .hero-description .header, .features .main-container-heading, .features .main-container-features-1 .header, .features .main-container-features-2 .header, .features .main-container-features-3 .header, .how-we-work .text p {
     font-size: 45px;
   }
@@ -40,7 +40,7 @@
   font-size: 16px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .nav {
     margin: 20px 50px;
     display: inline;
@@ -51,7 +51,7 @@
   margin: 0 30px 30px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .nav .nav-logo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -66,7 +66,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .nav .nav-logo .nav-icon-open {
     display: block;
   }
@@ -81,7 +81,7 @@
   transition: all .4s;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .nav-links li {
     display: none;
   }
@@ -142,7 +142,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 775px) {
   .hero-img-mobile {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -165,13 +165,13 @@ header {
   position: relative;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 775px) {
   header {
     height: 80vh;
   }
 }
 
-@media only screen and (width: 1440px) {
+@media only screen and (min-width: 1440px) {
   header {
     height: 60vh;
   }
@@ -186,7 +186,7 @@ header .hero {
   padding: 8rem 0 0;
 }
 
-@media only screen and (width: 1440px) {
+@media only screen and (min-width: 1440px) {
   header .hero {
     padding: 6rem 0 0;
     display: -webkit-box;
@@ -198,7 +198,7 @@ header .hero {
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 775px) {
   header .hero {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -214,13 +214,13 @@ header .hero .hero-description {
   margin-right: 50px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 775px) {
   header .hero .hero-description {
     text-align: center;
   }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 775px) {
   header .hero .hero-description .underline {
     display: none;
   }
@@ -250,7 +250,7 @@ header .hero .hero-description button:hover {
   color: #2d2640;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 775px) {
   header .hero .hero-img {
     display: none;
   }
@@ -270,7 +270,7 @@ header .hero-patterns .left {
   left: -20px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 775px) {
   header .hero-patterns .left {
     display: none;
   }
@@ -283,7 +283,7 @@ header .hero-patterns .right {
   width: 30%;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 775px) {
   header .hero-patterns .right {
     display: none;
   }
@@ -293,7 +293,7 @@ header .hero-patterns .left-mobile {
   display: none;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 775px) {
   header .hero-patterns .left-mobile {
     display: block;
     position: absolute;
@@ -306,7 +306,7 @@ header .hero-patterns .right-mobile {
   display: none;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 775px) {
   header .hero-patterns .right-mobile {
     display: block;
     position: absolute;
@@ -329,7 +329,7 @@ header .hero-patterns .right-mobile {
           justify-content: center;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .features {
     margin-top: 10rem;
     margin-bottom: 7rem;
@@ -345,7 +345,7 @@ header .hero-patterns .right-mobile {
   background: #2b272f;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .features .main-container .underline {
     margin: 0 auto 60px;
   }
@@ -364,7 +364,7 @@ header .hero-patterns .right-mobile {
       justify-content: space-around;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .features .main-container-features {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -386,7 +386,7 @@ header .hero-patterns .right-mobile {
       flex-wrap: column nowrap;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .features .main-container-features-1, .features .main-container-features-2, .features .main-container-features-3 {
     margin-bottom: 50px;
   }
@@ -416,7 +416,7 @@ header .hero-patterns .right-mobile {
   position: relative;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .how-we-work {
     background-image: url(/images/bg-pattern-how-we-work-mobile.svg);
     width: 90%;
@@ -437,7 +437,7 @@ header .hero-patterns .right-mobile {
           justify-content: space-between;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .how-we-work .text {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -455,7 +455,7 @@ header .hero-patterns .right-mobile {
   color: #fafafa;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .how-we-work .text p {
     font-size: 2.5rem;
   }
@@ -473,7 +473,7 @@ header .hero-patterns .right-mobile {
   transition: all .4s;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 913px) {
   .how-we-work .text button {
     margin-top: 3rem;
   }
