@@ -160,12 +160,22 @@ header{
     @media only screen and (max-width: 550px){
         height: 80vh;
      }
+     @media only screen and (width: 1440px){
+        height: 60vh;
+       
+     }
 
     .hero{
         display: flex;
         width: 80%;
         margin: 0 auto;
         padding: 8rem 0 0;
+
+        @media only screen and (width: 1440px){
+            padding: 6rem 0 0;
+            display: flex;
+            justify-content: space-evenly;
+         }
 
         @media only screen and (max-width: 550px){
            flex-direction: column;

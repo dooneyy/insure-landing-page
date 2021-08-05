@@ -171,6 +171,12 @@ header {
   }
 }
 
+@media only screen and (width: 1440px) {
+  header {
+    height: 60vh;
+  }
+}
+
 header .hero {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -178,6 +184,18 @@ header .hero {
   width: 80%;
   margin: 0 auto;
   padding: 8rem 0 0;
+}
+
+@media only screen and (width: 1440px) {
+  header .hero {
+    padding: 6rem 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
 }
 
 @media only screen and (max-width: 550px) {
